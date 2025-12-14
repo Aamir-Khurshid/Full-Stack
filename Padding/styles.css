@@ -1,0 +1,18 @@
+.card{
+    width: 300px;
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 60px; 
+    border: 4px  solid black;
+    /* For the inner spacing we use padding*/ 
+    border-radius: 50px;
+}
+
+.follow-butt{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
