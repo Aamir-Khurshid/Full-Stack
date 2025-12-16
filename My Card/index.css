@@ -1,0 +1,21 @@
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.my-image{
+    width:150px;
+}
+.CARD{
+    background-color: #adc0d2;
+    border-bottom: 10px solid #141416;
+    border-left: 10px solid #141416;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    margin: 100px auto;
+}
+.dotted{
+    border: 1px dotted blue;
+}
