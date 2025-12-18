@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/indiaGate.jpg");
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    color: rgb(227, 232, 236);
+
+}
+
+.firstLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header svg {
+    height: 40px;
+    fill: aliceblue;
+    margin-right: 10px;
+}
+
+.header svg,
+.welcome,
+.introLine {
+    margin-bottom: 50px;
+}
+
+.welcome {
+    font-size: 30px;
+}
+
+.townName {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.introLine {
+    font-size: 25px;
+}
+
+.explore,
+.visitUs {
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid blanchedalmond;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:100px 20px;
+}
+
+.aboutCont {
+    width: 700px;
+}
+
+.aboutHead {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.aboutDesc {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.about img {
+    width: 800px;
+    transition: transform 0.4s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.about img:hover{
+    transform: scale(1.2);
+}
+.why {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whyHead,.placeHead {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.whyIntro,.placeIntro {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.whyBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxes {
+    width: 400px;
+    height: 350px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 5px 10px #888888;
+}
+.whyBox img{
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.whyBox h1,.exploreCard h1 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.whyBox h4,.exploreCard h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.exploreCont{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.placecard{
+    display: flex;
+    justify-content: space-evenly;
+}
+.exploreCard{
+    height: 550px;
+    width: 500px;
+    text-align: left;
+    border: 2px solid gray;
+    box-shadow: 10px 10px gray;
+}
+
+.exploreCard img{
+    width: 500px;
+    height: 300px;
+}
+.exploreCard h1,h3 {
+    margin-top: 20px;
+    padding: 0 10px;
+}
+.endLine{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.footer{
+    margin-top: 100px;
+    padding: 50px 0 50px 0;
+    background-color: blue;
+    color: aliceblue;
+}
+.footerInfo{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid wheat;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 30px;
+}
+.yup{
+    text-align: left;
+    font-size: 25px;
+}
+.footer h4,li{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@media (max-width: 1275px){
+  .aboutHead,.introline,.whyHead,.placeHead,.header-button{
+    font-size: 20px;
+  }
+  .placeIntro,.aboutDesc,.whyIntro,.placeIntro{
+    font-size: 16px;
+  }
+  .about{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .aboutHead{
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .aboutDesc{
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .aboutImg{
+    max-width: 100%;
+    text-align: center;
+  }
+  .whyBox,.placeCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .placeCard{
+    gap: 20px;
+  }
+}
+@media (max-width: 890px){
+
+  .header{
+    height: 600px;
+    padding: 20px;
+  }
+  .welcome{
+    font-size: 20px;
+  }
+  .townName{
+    font-size: 22px;
+  }
+  .explore,.visitUs{
+    font-size: 15px;
+  }
+  .introLine{
+    font-size: 12px;
+  }
+
+  .about{
+    flex-direction: column;
+    margin: 20px 0px;
+    margin: 10px;
+  }
+  .aboutHead{
+    font-size: 18px;
+  }
+  .aboutCont{
+    width: 100%;
+    margin:10px 10px;
+  }
+
+  .aboutDesc{
+    font-size: 18px;
+  }
+
+  .about img{
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .whyBox{
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .boxes{
+    text-align: center;
+    padding: 5px;
+    height: auto;
+    max-width: 190%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .boxes h1,.exploreCard h1,.yup{
+    font-size: 17px;
+  }
+  .boxes h4,.exploreCard h3,li,.footerCol h4{
+    font-size: 18px;
+  }
+  .placeCard{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .endLine{
+    font-size: 5px;
+  }
+  .exploreCard{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .exploreCard img{
+    width: 100%;
+    height: 400px;
+  }
+
+  .footerInfo{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+}
+@media (max-width: 440px){
+
+  .header{
+    height: 500px;
+    padding: 20px;
+  }
+  .welcome{
+    font-size: 12px;
+  }
+  .townName{
+    font-size: 15px;
+  }
+
+  .introLine{
+    font-size: 10px;
+  }
+  .explore,.visitUs{
+    font-size: 10px;
+  }
+  .about{
+    flex-direction: column;
+    margin: 20px 20px;
+    gap: 10px;
+  }
+  .aboutHead,.whyHead,.placeHead{
+    font-size: 13px;
+  }
+  .aboutCont{
+    width: 100%;
+    margin:10px 10px;
+  }
+
+  .aboutDesc,.whyIntro,.placeIntro{
+    font-size: 13px;
+  }
+
+  .about img{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .whyBox{
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .boxes{
+    text-align: center;
+    padding: 5px;
+    height: auto;
+    max-width: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .boxes h1,.exploreCard h1,.yup{
+    font-size: 12px;
+  }
+  .boxes h4,.exploreCard h3,li,.footerCol h4{
+    font-size: 12px;
+  }
+  .placeCard{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .endLine{
+    font-size: 5px;
+  }
+  .exploreCard{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+    padding-bottom: 20px;
+  }
+
+  .exploreCard img{
+    width: 100%;
+    height: 300px;
+  }
+
+  .footerInfo{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+}

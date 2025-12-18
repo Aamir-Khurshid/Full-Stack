@@ -1,0 +1,36 @@
+body {
+    color: #82a5ca;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    margin: 0;
+    font-style: normal;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 900;
+}
+
+img {
+    width: 100px;
+}
+h3{
+    height: 100px;
+}
+.hero {
+    padding: 10px 0 40px 0;
+    background-image: url("stars.gif");
+    background-size: cover;
+}
+
+.click {
+    text-decoration: underline;
+}
+
+h1 {
+    text-shadow: 0px 0px 10px #82a5ca;
+}
