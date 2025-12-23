@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(34, 34, 126);
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+}
+h3{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+#home-score,#guest-score{
+    font-size: 50px;
+    color: red;
+    padding: 5px 5px 5px 15px;
+    background-color: black;
+}
+
+.btn{
+    margin: 30px auto;
+    color: aliceblue;
+    background-color: transparent;
+    border: none;
+    border: 1px solid aliceblue;
+    padding: 5px 10px;
+    font-family: "Jersey 10", sans-serif;
+}
+.btn:hover{
+    color: rgb(148, 192, 230);
+    border: 1px solid rgb(117, 183, 241);
+}
+
+
+.newGame{
+    margin-top: 40px;
+    font-family: "Jersey 10", sans-serif;
+    border-radius: 20px;
+    font-size: 40px;
+    padding: 20px 30px;
+}
+
+.newGame:hover{
+    color: aliceblue;
+    background-color: black;
+}
