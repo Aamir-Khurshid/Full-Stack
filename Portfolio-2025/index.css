@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.logo,
+h2,
+h3 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.my-container {
+    max-width: 1300px;
+    padding-inline: 3rem;
+    margin: auto;
+}
+
+.sections-pb {
+    padding-block: 7.5rem;
+}
+
+.field:focus {
+    outline: none;
+    border-bottom-color: rgb(38, 38, 38);
+}
+.field:focus::placeholder{
+    color:  rgb(38, 38, 38);
+}
+
+
+.navbar-styling{
+    color: rgb(42, 40, 40);
+    background:rgb(137, 135, 135);
+    box-shadow: 5px 20px 50px 0
+     rgba(100, 100, 111, 0.1);
+}
+a{
+    cursor: pointer;
+}

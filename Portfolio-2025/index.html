@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header id="navbar" class="fixed top-0 left-0 right-0 z-10 text-white">
+        <nav class="flex justify-between items-center my-container h-24 ">
+            <a href="#" class=" logo text-3xl font-bold">Aamir.</a>
+            <!-- Desktop Menu -->
+
+            <ul class="md:flex items-center gap-8 hidden">
+                <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="home">Home</a></li>
+                <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="about">About</a></li>
+                <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="projects">Projects</a></li>
+                <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="contact">Contact</a></li>
+            </ul>
+
+            <!-- Hamburger -->
+            <a href="#" id="burger" class="text-2xl md:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+
+        </nav>
+    </header>
+
+    <!-- Mobile-Menu -->
+    <ul id="menu" class="flex flex-col items-center justify-center gap-8 
+        md:hidden absolute top-0 left-0 bottom-0 bg-white w-60
+        -translate-x-full transition-transform duration-500">
+        <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="home">Home</a></li>
+        <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="about">About</a></li>
+        <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="projects">Projects</a></li>
+        <li><a class="nav-link uppercase text-[19] hover:text-gray-300" data-target="contact">Contact</a></li>
+    </ul>
+
+
+    <!--Section -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home"
+            class="flex items-center justify-center bg-[url(assets/hero-bg.jpg)] h-screen bg-center bg-cover">
+            <div class="my-container">
+                <h1 id="typing" class="text-white text-6xl md:text-8xl font-semibold tracking-tighter h-25 md:h-30"></h1>
+
+                <!-- Social Icons -->
+                <ul class="flex items-center justify-center gap-8">
+                    <li>
+                        <a href="https://www.linkedin.com/in/aamirkhurshid2002/" target="_blank" class="text-white text-2xl hover:text-gray-300">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Aamir-Khurshid" target="_blank" class="text-white text-2xl hover:text-gray-300">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtube.com/@icomeback2026?si=DUZszZjmd80Fxr4M" target="_blank" class="text-white text-2xl hover:text-gray-300">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="my-container sections-pb flex md:flex-row flex-col items-center gap-10">
+                <img src="assets/Aamir.jpg" class="w-full md:w-1/3">
+
+                <div>
+                    <h2 class="text-neutral-800 text-4xl/12 md:text-5xl/16 md:max-w-xl">
+                        Hi, I'm Aamir Khurshid, Web Developer & Web Designer.
+                    </h2>
+                    <p class="text-gray-500 mt-8 mb-15 text-sm/7 md:text-base/9">
+                        I am a passionate Frontend Developer focused on building responsive,
+                        user-friendly web applications. I enjoy converting designs into
+                        clean and functional code using modern web technologies.
+                    </p>
+                    <a href="assets\AAMIR KHURSHID - WEB-DEV.pdf" download
+                        class="bg-yellow-500 text-sm text-neutral p-3 tracking-widest hover:bg-yellow-300">Download
+                        Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent Work -->
+        <section id="projects" class="section">
+            <div class="my-container sections-pb">
+                <h3 class="text-4xl text-neutral-800">
+                    Recent Works
+                </h3>
+                <div class="flex md:flex-row flex-col gap-14 mt-14">
+                    <a href="https://aamir-khurshid.github.io/FastDel/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-1.png">
+                    </a>
+                    <a href="https://aamir-khurshid.github.io/Amazon/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-2.png" alt="">
+                    </a>
+                    <a href="https://aamir-khurshid.github.io/NetflixClone/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-3.png" alt="">
+                    </a>
+                </div>
+                <div class="flex md:flex-row flex-col gap-14 mt-14">
+                    <a href="https://aamir-khurshid.github.io/Youtube-Clone/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-4.png" alt="">
+                    </a>
+                    <a href="https://aamir-khurshid.github.io/Myntra_Clone/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-5.png" alt="">
+                    </a>
+                    <a href="https://aamir-khurshid.github.io/MY-TOWN/" target="_blank" class="hover:-translate-y-3 transition:transform duration-300">
+                        <img src="assets/project-6.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="my-container sections-pb">
+                <h3 class="text-4xl text-neutral-800">Contact Us</h3>
+
+                <form>
+                    <div class="flex md:flex-row flex-col mt-10 gap-10">
+                        <input type="text" name="name" placeholder="Name" autocomplete="off"
+                            class="field flex-1 border-b-2 border-gray-300 py-3 placeholder-gray-500 text-sm">
+                        <input type="text" name="number" placeholder="Number"
+                            class="field flex-1 border-b-2 border-gray-300 py-3 placeholder-gray-500 text-sm">
+                    </div>
+                    <div class="flex md:flex-row flex-col mt-10 gap-10">
+                        <input type="email" name="email" placeholder="Email" autocomplete="off"
+                            class="field flex-1 border-b-2 border-gray-300 py-3 placeholder-gray-500 text-sm">
+                        <input type="text" name="subject" placeholder="Subject"
+                            class="field flex-1 border-b-2 border-gray-300 py-3 placeholder-gray-500 text-sm">
+                    </div>
+                    <div class="mt-10">
+                        <textarea name="message" placeholder="Message"
+                            class="field resize-none w-full h-32 border-b-2 border-gray-300 py-3 placeholder-gray-500 text-sm"></textarea>
+                    </div>
+                    <div class="mt-10">
+                        <a href="#"
+                            class="bg-yellow-500 text-sm text-neutral p-3 tracking-widest hover:bg-yellow-300">Send
+                            Message</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-gray-300 flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center py-15 text-center">
+            <ul class="flex gap-8">
+                <li
+                    class="h-10 w-10 border-2 border-gray-400 rounded-full leading-10 hover:border-neutral-700 transition-all duration-300">
+                    <a href="https://www.linkedin.com/in/aamirkhurshid2002/" target="_blank" class="Text-neutral-800 text-xl">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li
+                    class="h-10 w-10 border-2 border-gray-400 rounded-full leading-10 hover:border-neutral-700 transition-all duration-300">
+                    <a href="https://github.com/Aamir-Khurshid" target="_blank" class="Text-neutral-800 text-xl">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li
+                    class="h-10 w-10 border-2 border-gray-400 rounded-full leading-10 hover:border-neutral-700 transition-all duration-300">
+                    <a href="https://youtube.com/@icomeback2026?si=DUZszZjmd80Fxr4M" target="_blank" class="Text-neutral-800 text-xl">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            <div class="mt-5">
+                <p class="text-sm text-gray-600 ">&copy; Aamir. all rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
