@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Aamir Khurshid",
+    "email": "aamir@example.com",
+    "age": 25,
+    "city": "Delhi",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Sana Ali",
+    "email": "sana@example.com",
+    "age": 30,
+    "city": "Mumbai",
+    "isActive": false
+  },
+  {
+    "id": 3,
+    "name": "Rohit Sharma",
+    "email": "rohit@example.com",
+    "age": 22,
+    "city": "Bangalore",
+    "isActive": true
+  },
+  {
+    "id": 4,
+    "name": "Meera Sen",
+    "email": "meera@example.com",
+    "age": 28,
+    "city": "Kolkata",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Vikram Rao",
+    "email": "vikram@example.com",
+    "age": 35,
+    "city": "Chennai",
+    "isActive": false
+  }
+]
+
