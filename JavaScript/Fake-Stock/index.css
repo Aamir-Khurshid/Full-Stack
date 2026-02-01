@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color: white;
+    width: 15%;
+    text-align: left;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+span{
+    font-size: 18px;
+    font-weight: 200;
+}
+.fa-caret-up{
+    color: green;
+}
+.fa-caret-down{
+    color: red;
+}
